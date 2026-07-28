@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+	int a;
+	int b;
+	int c;
+	std::cout << "enter three numbers : "; // asks the user for numbers
+	std::cin >> a >> b >> c; // receives the a b c from the user
+	std::cout << "You entered " << a << ", " << b << ", " << "and " << c << std::endl; // prints the received values
+
+
+}
