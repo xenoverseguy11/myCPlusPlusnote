@@ -1,26 +1,20 @@
-
 /*
 GLOBAL SCOPE
 */
 
-int foo(int boo, int doo); // Is a global declaration, usually, function declarations are mostly global.
+int x{ 5 }; // is part of the global scope(or global namespace)
+int o; // also part of global scope
+int baba(int p); // is part of global scope
 
-int x; // Is a global variable, but discouraged, because it is available on the global and use const
-
-int y{ 5 }; // Is also a global variable , like x
-
-
-int main() // also a global definition
+int main()
 {
-	int x; // is NOT a global variable, this is a local
-	int y{ 5 }; // is NOT a global variable, this is also local
-	return 0;
+	int l{ 5 }; // Is a local variable
 }
 
 /*
 SUMMARY
 */
 
-//GLOBAL SCOPE IS THE VERY TOP AREA
-//ANYTHING DEFINED OR DECLARED ON GLOBAL SCOPE IS CONSIDERED GLOBAL
-
+//ANYTHING THAT IS DECLARED OR DEFINED IN THE GLOBAL SCOPE IS GLOBAL
+//IT IS DISCOURAGED TO PUT VARIABLES ON THE GLOBAL SCOPE, BECAUSE OF NAMING COLLISIONS
+//VARIABLES,FUNCTIONS,CLASSES,OR MOST THINGS ON THE GLOBAL SCOPE HAVE LONGER LIFETIME THAN LOCAL ONES
