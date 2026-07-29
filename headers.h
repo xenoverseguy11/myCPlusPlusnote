@@ -20,3 +20,7 @@ WHAT ARE HEADERS FOR?
 // however forward declarations arent trivial, imagine if the code has many functions you wanted to use, then you'd have to forward declare
 // every single of them, thus the reason why headers exist, headers only let you to include them and let you use all of their functions
 // without having to declare them multiple times
+
+/*
+RECCOMENDATION: use #pragma once instead, it offers the same purpose but on a single line!, and even less error prone
+*/
