@@ -10,3 +10,8 @@ double :: Floating point :: 8 bytes :: holds a fraction number
 float :: Floating point :: 4 bytes :: also holds a fraction number
 bool :: Boolean :: 1 bytes :: usually holds only true(1) or false(0)
 
+## UNSIGNED INT VS SIGNED INT:
+SIGNED INT: int op;
+a signed integer is a integer that allows use for both positive and negative numbers
+UNSIGNED INT: unsigned int op;
+a unsigned integer is a integer that only allows use for positive numbers
