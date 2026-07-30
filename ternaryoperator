@@ -1,0 +1,45 @@
+
+
+/*
+
+TERNARY OPERATOR/CONDITIONAL OPERATOR
+
+*/
+
+
+#include <iostream>
+
+int main()
+{
+	int x = 5;
+	int y = 3;
+	/*
+	consider this:
+	if(x > y)
+	{
+	   std::cout << x;
+	}
+	else
+    {
+	   std::cout << y
+	}
+
+	to some people this is "too much"
+	so they might be better off to ternary operators
+    I honestly hate them but the learncpp guide uses them heavily so i'd just have to learn it, but here's my note!
+	*/
+
+	int max = ((x > y) ? x : y); // rewritten in ternary operator
+
+	std::cout << max; // prints the bigger, which is 5
+}
+
+/*
+SUMMARY
+*/
+
+//the tenrary operator is a great way to replace if/else(not else if!)
+//it was called ternary operator because generally a ternary operator is essentially a operator that takes 3 operands, the conditional operator
+//qualifies, thus the reason why conditional is always refered to ternary, because its the only ternary operator in C++
+// ((condition) ? expression1 : expression2;)
+// if condition is true it evaluates to expression1 otherwise it evaluates to expression2
