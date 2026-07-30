@@ -65,4 +65,6 @@ SUMMARY
 //in order for a constexpr variable to initialize with a function call, the function must be a constexpr too
 //a string is an expensive data type in C++ used to replace the older c style literal
 //a string_view is a less expensive read only string that doesnt copy from its initializer
-//
+//unlike normal string, string_view can be used with constexpr, meaning its highly efficient!
+//like its name, string_view cant modify anything because its a viewer, it just lets people see the literal but not modify it
+//because string_view doesnt hold any literal
